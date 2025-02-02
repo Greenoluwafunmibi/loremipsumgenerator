@@ -35,7 +35,7 @@ function App() {
 
   return (
   <>
-  <div className={darkMode? "container dark": "container"}>
+  <div className={darkMode? "dark": "container"}>
     <div className="mode-div" onClick={()=>{
       setDarkMode(!darkMode);
     }}>
